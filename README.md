@@ -10,23 +10,23 @@ It is a demostration for visitors and has strict time limitation. So I finally d
 </div>
 
 ## Open Camera View
-、、、 bash
+```bash
 python camera_view.py
-、、、
+```
 
 ## View Understanding
 ### Set observation position
-、、、 bash
+```bash
 python teach.py "observation"
 python play.py "observation"
-、、、
+```
 ### VLM inference
-、、、 bash
+```bash
 python nanobot_vision.py "图像中有什么"
-、、、
+```
 
 ## Pick-and-Place
-、、、 bash
+```bash
 python teach.py "pick left brick and place on the top of right brick"
 python play.py "pick left brick and place on the top of right brick"
-、、、
+```
